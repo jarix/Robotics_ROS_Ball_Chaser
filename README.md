@@ -32,6 +32,11 @@ Developed and tested on ROS Kinetic
 
 ## Images
 
+### Office Environment in Gazebo
 ![Gazebo office world](./readme/gazebo_world.jpg)
+
+### Robot with 2 wheels and caster, Camera and LiDAR sensors
 ![Robot with two wheels and caster](./readme/robot.jpg)
-![RViz with Camera and Lidar Views](./readme/rviz.jpg)
+
+### RViz with Camera and LiDAR views
+![RViz with Camera and Lidar Views](./readme/rviz_view.jpg)
