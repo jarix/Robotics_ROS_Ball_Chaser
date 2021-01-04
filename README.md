@@ -12,25 +12,28 @@ Contains two ROS packages:
 
 ## Usage
 
-Clone the code into your catkin workspace
+Clone this project into your catkin workspace's **src** directory:
+```$ cd ~/catkin_ws/src
+$ git clone https://github.com/jarix/Robotics_ROS_Ball_Chaser.git```
 
-Build:
-`$ cd ~/catkin_ws`
-`$ catkin_make`
+Build project:
+```$ cd ~/catkin_ws
+$ catkin_make
+$ source devel/setup.bash```
 
-Launch the robot, Gazebo World, and RViz:
+Launch the Robot world (my_robot, Gazebo, and RViz):
 
 `roslaunch my_robot world.launch`
 
-Launch ball chaser:
+Launch the ball chaser node:
 
 `roslaunch ball_chaser ball_chaser.launch`
 
-## Evnironment
+## Environment
 
 Developed and tested on ROS Kinetic
 
-## Images
+## Screenshots
 
 ### Office Environment in Gazebo
 ![Gazebo office world](./readme/gazebo_world.jpg)
