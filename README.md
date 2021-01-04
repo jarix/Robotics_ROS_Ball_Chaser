@@ -13,13 +13,16 @@ Contains two ROS packages:
 ## Usage
 
 Clone this project into your catkin workspace's **src** directory:
-```$ cd ~/catkin_ws/src
-$ git clone https://github.com/jarix/Robotics_ROS_Ball_Chaser.git```
+```
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/jarix/Robotics_ROS_Ball_Chaser.git
+```
 
 Build project:
 ```$ cd ~/catkin_ws
 $ catkin_make
-$ source devel/setup.bash```
+$ source devel/setup.bash
+```
 
 Launch the Robot world (my_robot, Gazebo, and RViz):
 
@@ -36,10 +39,10 @@ Developed and tested on ROS Kinetic
 ## Screenshots
 
 ### Office Environment in Gazebo
-![Gazebo office world](./readme/gazebo_world.jpg)
+![Gazebo office world](./screenshots/gazebo_world.jpg)
 
 ### Robot with 2 wheels and caster, Camera and LiDAR sensors
-![Robot with two wheels and caster](./readme/robot.jpg)
+![Robot with two wheels and caster](./screenshots/robot.jpg)
 
 ### RViz with Camera and LiDAR views
-![RViz with Camera and Lidar Views](./readme/rviz_view.jpg)
+![RViz with Camera and Lidar Views](./screenshots/rviz_view.jpg)
